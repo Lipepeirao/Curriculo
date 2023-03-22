@@ -1,0 +1,47 @@
+body{
+    margin: 15;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+nav{
+    overflow: hidden;
+    background-color:gray;   
+
+}
+
+nav a{
+ color: white;
+ float: left;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+
+
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+.seçao{
+    padding :16px 16px;
+}
+.FixoNoTopo{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: solid 3px;
+
+}
+.FixoNoTopo + .seçao{
+    padding-top: 60px;
+}
